@@ -4,7 +4,8 @@
   "description": "Pomodoro timer for devs",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "predeploy": "rm -rf dist && parcel build index.html",
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "cssnano": "^4.1.8"
+    "cssnano": "^4.1.8",
+    "gh-pages": "^2.0.1"
   }
 }
