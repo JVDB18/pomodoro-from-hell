@@ -1,0 +1,47 @@
+body {
+  background-color: #fefefe;
+  text-align: center; }
+
+h1 {
+  font-size: 40px;
+  margin-top: 30px; }
+
+#app {
+  justify-content: center;
+  margin: 0 auto; }
+  #app .main_container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    width: 100%;
+    height: auto;
+    margin: 0 auto; }
+    #app .main_container .navbar {
+      background: #21374B;
+      color: #E7DACB;
+      height: 50px;
+      grid-column-start: 1;
+      grid-row-start: 1; }
+    #app .main_container .pomodoro_container {
+      width: 900px;
+      height: 500px;
+      background-color: rgba(104, 151, 147, 0.226);
+      border-radius: 20px;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      margin: 0 auto;
+      align-content: center; }
+    #app .main_container .min_container {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      grid-column-start: 3;
+      grid-column-end: 3;
+      grid-row-start: 3;
+      grid-row-end: 3; }
+    #app .main_container .sec_container {
+      width: 100px;
+      height: 100px;
+      background-color: blue; }

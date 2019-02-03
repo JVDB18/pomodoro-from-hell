@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(57deg, #12e6b0, #0d7258, #094456, #062536, #5fbaee);
+    background-size: 1000% 1000%;
+    
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+    text-align: center;
+    color: whitesmoke;
+}    
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 90%}
+    50%{background-position:100% 11%}
+    100%{background-position:0% 90%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 90%}
+    50%{background-position:100% 11%}
+    100%{background-position:0% 90%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 90%}
+    50%{background-position:100% 11%}
+    100%{background-position:0% 90%}
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 30px;
+      }
+#app{
+    justify-content: center;
+    margin: 0 auto;
+}
+.pomodoro_container{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 25% 25% 25% 25%;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.timer_container {
+  
+    width: 500px;
+    height: 500px;
+    background-color:transparent;
+    border: 3px solid pink;
+    border-radius: 100%;
+    grid-column-start: 9;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+   
+}
+.btn_container{
+    grid-column-start: 9;
+    grid-row-start:4;
+}
